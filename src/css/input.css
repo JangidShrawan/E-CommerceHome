@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+}
+
+.thumbnail-open{
+    @apply border-2 border-orange opacity-50;
+}
+
+.opacity-down{
+    filter: brightness(30%);
+    background-color: rgba(0,0,0,.6);
+}
